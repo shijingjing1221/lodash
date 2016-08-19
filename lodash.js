@@ -16704,9 +16704,9 @@
 
     // Define as an anonymous module so, through path mapping, it can be
     // referenced as the "underscore" module.
-    define(function() {
-      return _;
-    });
+    // define(function() {
+    //   return _;
+    // });
   }
   // Check for `exports` after `define` in case a build optimizer adds it.
   else if (freeModule) {
